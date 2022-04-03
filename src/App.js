@@ -1,11 +1,11 @@
 import { Route, Routes } from "react-router-dom";
 import "./assets/css/global.css";
 import Header from "./components/Header";
+import NotFound from './components/NotFound';
 import About from './pages/About';
 import Blogs from './pages/Blogs';
 import Dashboard from './pages/Dashboard';
 import Home from './pages/Home';
-import NotFound from './pages/NotFound';
 import Review from './pages/Review';
 
 function App() {
