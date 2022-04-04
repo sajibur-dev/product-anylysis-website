@@ -1,0 +1,9 @@
+.chart_container {
+  width: 500px;
+}
+
+.chart_title {
+  text-align: center;
+  margin: 10px 0;
+  color: blue;
+}

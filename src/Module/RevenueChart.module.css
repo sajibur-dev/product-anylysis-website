@@ -1,0 +1,9 @@
+.revunueChart_container {
+  width: 500px;
+}
+
+.revenue_title {
+  color: blue;
+  margin: 10px 0;
+  text-align: center;
+}
