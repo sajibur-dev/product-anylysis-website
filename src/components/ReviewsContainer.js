@@ -17,7 +17,7 @@ const ReviewsContainer = () => {
       <h1 className={Styles.review_title}>customer reviews</h1>
       <div className={Styles.card_container}>
         {reviews
-          ? reviews.map((review) => <Review key={review.id} review={review} />)
+          ? reviews.slice(0,3).map((review) => <Review key={review.id} review={review} />)
           : null}
       </div>
       <div className={Styles.review_button}>
