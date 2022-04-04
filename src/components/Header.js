@@ -11,7 +11,7 @@ const Header = () => {
           isActive ? { color: "red" } : { color: "black" }
         }
         className={styles.navlink}
-        to="/home"
+        to="/"
       >
         Home
       </NavLink>
