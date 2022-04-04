@@ -3,9 +3,7 @@ import { NavLink } from "react-router-dom";
 import styles from "../Module/Header.module.css";
 
 const Header = () => {
-  const activeClass = {
-    color: "red",
-  };
+
   return (
     <div className={styles.nav}>
       <NavLink

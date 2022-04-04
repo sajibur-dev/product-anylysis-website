@@ -28,3 +28,25 @@
   width: 100%;
   border-radius: 10px;
 }
+
+/*
+
+#####       #####
+resposniveness 
+####      #### 
+
+*/
+
+/* mobile  */
+
+@media screen and (max-width: 769px) {
+  .product_container {
+    flex-direction: column;
+  }
+  .product_description {
+    order: 2;
+  }
+  .product_image {
+    order: 1;
+  }
+}
