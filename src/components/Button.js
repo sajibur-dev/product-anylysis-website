@@ -2,9 +2,9 @@ import React from 'react';
 import Styles from '../Module/Button.module.css';
 
 
-const Button = ({children}) => {
+const Button = ({children,handleEvent,...props}) => {
     return (
-        <button className={Styles.button}>
+        <button onClick={handleEvent} className={Styles.button}>
             {children}
         </button>
     );
