@@ -1,0 +1,36 @@
+.review {
+  width: 18rem;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.review_img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.review_img img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.review_body {
+  padding: 10px;
+}
+
+.reviewer_name {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.review_rating {
+  margin: 15px 0;
+}
+
+.review_description {
+  margin-top: 15px;
+}
